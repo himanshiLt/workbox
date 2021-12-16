@@ -1,0 +1,19 @@
+---
+framework: 'mocha'
+postMerge:
+  pattern:
+    - './test/all/node/*.js'
+    - './test/**/integration/*.js'
+    - './test/**/node/*.js'
+    - './test/**/node/lib/*.js'
+preMerge:
+  pattern:
+    - './test/all/node/*.js'
+    - './test/**/integration/*.js'
+    - './test/**/node/*.js'
+    - './test/**/node/lib/*.js'
+preRun:
+  - npm install # Mention pre-run steps here
+postRun:
+  - node --version
+version: 2.0
