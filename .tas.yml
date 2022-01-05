@@ -6,6 +6,7 @@ postMerge:
     - './test/all/node/test-jsdocs.js'
     - './test/all/node/test-package.js'
     - './test/all/node/test-prod-builds.js'
+    - './test/all/node/test-yarn-installation.js'
 preMerge:
   pattern:
     - './test/all/node/test-exports.js'
