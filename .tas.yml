@@ -1,11 +1,11 @@
 framework: mocha
-tier: xlarge
+tier: large
 postMerge:
   pattern:
-    - './test/**/node/*.js'
+    - './test/all/node/*.js'
 preMerge:
   pattern:
-    - './test/**/node/*.js'
+    - './test/all/node/*.js'
 preRun:
   command:
     - npm install
