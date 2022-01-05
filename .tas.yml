@@ -2,10 +2,10 @@ framework: mocha
 tier: large
 postMerge:
   pattern:
-    - './test/all/node/*.js'
+    - './test/all/node/test-exports.js'
 preMerge:
   pattern:
-    - './test/all/node/*.js'
+    - './test/all/node/test-exports.js'
 preRun:
   command:
     - npm install
