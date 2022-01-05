@@ -3,9 +3,11 @@ tier: large
 postMerge:
   pattern:
     - './test/all/node/test-exports.js'
+    - './test/all/node/test-jsdocs.js'
 preMerge:
   pattern:
     - './test/all/node/test-exports.js'
+    - './test/all/node/test-jsdocs.js'
 preRun:
   command:
     - npm install
