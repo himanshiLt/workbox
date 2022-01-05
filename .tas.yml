@@ -4,10 +4,12 @@ postMerge:
   pattern:
     - './test/all/node/test-exports.js'
     - './test/all/node/test-jsdocs.js'
+    - './test/all/node/test-package.js'
 preMerge:
   pattern:
     - './test/all/node/test-exports.js'
     - './test/all/node/test-jsdocs.js'
+    - './test/all/node/test-package.js'
 preRun:
   command:
     - npm install
